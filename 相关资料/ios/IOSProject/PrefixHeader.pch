@@ -1,0 +1,17 @@
+//
+//  DoctorFixBao_prefix.pch
+//  DoctorFixBao
+//
+//  Created by Kiwi on 11/22/14.
+//  Copyright (c) 2014 CC Inc. All rights reserved.
+//
+
+#ifndef DoctorFixBao_DoctorFixBao_prefix_pch
+#define DoctorFixBao_DoctorFixBao_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Config.h"
+
+#endif

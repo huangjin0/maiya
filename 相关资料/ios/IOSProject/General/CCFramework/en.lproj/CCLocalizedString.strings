@@ -1,0 +1,15 @@
+/* 
+  CCLocalizedString.strings
+  CCFramework
+
+  Created by Kiwi on 11/26/14.
+  Copyright (c) 2014 CC Inc. All rights reserved.
+*/
+
+"OK"="OK";
+
+"All"="All";
+
+"CCLMC_no_more_data"="No More";
+"CCLMC_pull_to_load"="Pull Up To Load More";
+"CCLMC_release_to_load"="Release To Load More";

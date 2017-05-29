@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  DNLicence
+
+  Created by Kiwi on 9/4/14.
+  Copyright (c) 2014 DN Inc. All rights reserved.
+*/
+
+
+/* Basic */
+
+"Previous" = "上一个";
+"Next" = "下一个";
+"Done" = "完成";
+
+"OK"="确定";
+"Cancel"="取消";
+"Yes"="是";
+"No"="否";
+"Back"="返回";
+"Sorry"="抱歉";
+
+/* Errors */
+
+"Error"="错误";
+"UnknownError"="未知错误";
+"Failed"="失败";
+
+
+/* Code Scan */
+"CodeScan_type_QRCode"="二维码";
+"CodeScan_type_BarCode"="条形码";
+"CodeScan_enter_code"="请输入";
+"CodeScan_enter_code_manually"="手动输入";
+"CodeScan_light_on"="开灯";
+"CodeScan_light_off"="关灯";
+"CodeScan_put_in_frame"="请将%@置于框内";
+"CodeScan_scan_failed"="扫描失败";
