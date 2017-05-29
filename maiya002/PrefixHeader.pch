@@ -1,0 +1,79 @@
+//
+//  PrefixHeader.pch
+//  maiya002
+//
+//  Created by HuangJin on 16/9/10.
+//  Copyright © 2016年 com. All rights reserved.
+//
+
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#pragma mark - 头文件
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import "MYHonePageController.h"
+#import "MYPersonCenterController.h"
+#import "MYMainSearchController.h"
+#import "MYBuyCarController.h"
+#import "MYBaseViewController.h"
+#import "AFNetworking.h"
+#import "Reachability.h"
+#import "MBProgressHUD.h"
+#import "UIColor+Helper.h"
+#import "NSString+Helper.h"
+#import "NSObject+Helper.h"
+#import "UILabel+Frame.h"
+#import "MYNetWorking.h"
+#import "HTTPClient.h"
+#import "Uinits.h"
+
+
+#define STORYBOAD_MAIN  [UIStoryboard storyboardWithName:@"Main" bundle:nil]
+#define STORYBOAD_LOGIN [UIStoryboard storyboardWithName:@"Login" bundle:nil]
+#define STORYBOAD_PERSON [UIStoryboard storyboardWithName:@"person" bundle:nil]
+#define STORYBOAD_HOME [UIStoryboard storyboardWithName:@"home" bundle:nil]
+ #define NAV(a) [[UINavigationController alloc]initWithRootViewController:a]
+ #define IMAGE(a) [UIImage imageNamed:a]
+#define VC_BACK_IMAGE [UIImage imageNamed:@"back_arrow"]
+
+#pragma mark - 颜色
+#define COLOR(r,g,b,a) [UIColor colorWithRed:r green:g blue:b alpha:a]
+
+#define MAIN_BLUE_COLOR [UIColor colorWithRed:(45.0f/255.0f) green:(127.0f/255.0f) blue:(211.0f/255.0f) alpha:0.99f]
+#define WHITE_COLOR [UIColor whiteColor]
+#define MAIN_TEXT_COLOR [UIColor colorWithRed:(49.0f/255.0f) green:(49.0f/255.0f) blue:(49.0f/255.0f) alpha:1.0f]
+#define BORDER_COLOR [UIColor colorWithRed:(234.0f/255.0f) green:(234.0f/255.0f) blue:(234.0f/255.0f) alpha:1.0f]
+#define TOOLBAR_COLOR [UIColor colorWithRed:(243.0f/255.0f) green:(243.0f/255.0f) blue:(245.0f/255.0f) alpha:0.9f]
+#define TOOLBAR_BTN_SELECTED_TEXTCOLOR [UIColor colorWithRed:2.0f/255 green:136.0f/255 blue:209.0f/255 alpha:1.0f]
+#define TOOLBAR_BTN_NORMAL_TEXTCOLOT [UIColor colorWithRed:51.0f/255 green:51.0f/255 blue:51.0f/255 alpha:1.0f]
+
+#pragma mark - 字体
+#define FONT_NAME @"HelveticaNeue-Light"
+
+#define MYHEIGHT   [UIScreen mainScreen].bounds.size.height
+#define MYWIDTH  [UIScreen mainScreen].bounds.size.width
+
+
+
+#define BASEURL @"http://maiya.zgcom.cn"
+#define regintCode  @"regist/code"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
